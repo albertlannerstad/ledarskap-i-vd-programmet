@@ -29,36 +29,80 @@
   </div>
 
   <h2>Grundtanken</h2>
-  <p>UL utgår från att ledarskap vilar på en <strong>värdegrund</strong> som visar sig i konkreta beteenden. Modellen ställer det utvecklande ledarskapet i kontrast mot två andra ledarstilar:</p>
+  <p>UL utgår från att ledarskap vilar på en <strong>värdegrund</strong> som visar sig i konkreta beteenden. Modellen brukar illustreras längs två axlar — <strong>organisatoriska resultat</strong> och <strong>medarbetarnas personliga utveckling</strong> — där de tre ledarstilarna hamnar på olika ställen:</p>
 
   <div class="diagram">
-    <svg viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tre ledarskapsstilar: destruktivt, konventionellt, utvecklande">
-      <rect x="20" y="140" width="200" height="60" rx="8" fill="var(--text-muted)" opacity="0.55"></rect>
-      <text x="120" y="175" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Destruktivt ledarskap</text>
+    <svg viewBox="0 0 660 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram med två axlar, organisatoriska resultat och personlig utveckling, där destruktivt ledarskap är lågt på båda, konventionellt ledarskap högt på resultat men lågt på utveckling, och utvecklande ledarskap högt på båda">
+      <defs>
+        <marker id="axisArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--text-muted)"></path>
+        </marker>
+      </defs>
 
-      <rect x="250" y="90" width="200" height="110" rx="8" fill="var(--ul)" opacity="0.45"></rect>
-      <text x="350" y="150" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Konventionellt</text>
-      <text x="350" y="168" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">ledarskap</text>
+      <line x1="70" y1="380" x2="620" y2="380" stroke="var(--text-muted)" stroke-width="2" marker-end="url(#axisArrow)"></line>
+      <line x1="70" y1="380" x2="70" y2="30" stroke="var(--text-muted)" stroke-width="2" marker-end="url(#axisArrow)"></line>
 
-      <rect x="480" y="30" width="200" height="170" rx="8" fill="var(--ul)"></rect>
-      <text x="580" y="110" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Utvecklande</text>
-      <text x="580" y="128" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">ledarskap</text>
+      <text x="345" y="408" text-anchor="middle" font-size="13" fill="var(--text-muted)" font-family="sans-serif">Organisatoriska resultat →</text>
+      <text x="30" y="205" text-anchor="middle" font-size="13" fill="var(--text-muted)" font-family="sans-serif" transform="rotate(-90 30 205)">Medarbetarnas utveckling →</text>
+
+      <circle cx="160" cy="330" r="52" fill="var(--text-muted)" opacity="0.55"></circle>
+      <text x="160" y="326" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Destruktivt</text>
+      <text x="160" y="342" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">ledarskap</text>
+
+      <circle cx="440" cy="290" r="62" fill="var(--ul)" opacity="0.45"></circle>
+      <text x="440" y="286" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Konventionellt</text>
+      <text x="440" y="302" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">ledarskap</text>
+
+      <circle cx="480" cy="100" r="68" fill="var(--ul)"></circle>
+      <text x="480" y="96" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">Utvecklande</text>
+      <text x="480" y="112" text-anchor="middle" font-size="13" fill="#fff" font-family="sans-serif" font-weight="bold">ledarskap</text>
     </svg>
+    <p style="font-size:13px; color:var(--text-muted); font-family:sans-serif;">Konventionellt ledarskap kan ge goda resultat på kort sikt, men utan satsning på medarbetarnas utveckling. Utvecklande ledarskap är det enda som är högt på båda axlarna.</p>
   </div>
 
   <div class="grid cols-3">
     <div class="stage" style="border-left-color:var(--text-muted);">
       <h3>Destruktivt ledarskap</h3>
-      <p>Beteenden som skadar organisationen och medarbetarna — t.ex. inkonsekvens, favorisering, undanhållande av information eller bestraffande ledarstil.</p>
+      <p>Lågt på både resultat och utveckling.</p>
     </div>
     <div class="stage" style="border-left-color:var(--ul);">
       <h3>Konventionellt ledarskap (KL)</h3>
-      <p>Traditionellt transaktionellt ledarskap: belöning och bestraffning kopplat till prestation, tydlig styrning via regler och kontroll. Fungerar, men skapar sällan engagemang utöver det som mäts.</p>
+      <p>Högt på resultat, lågt på utveckling.</p>
     </div>
     <div class="stage" style="border-left-color:var(--ul);">
       <h3>Utvecklande ledarskap (UL)</h3>
-      <p>Bygger på förtroende, föredöme och att utveckla medarbetarnas egen förmåga och motivation — snarare än att bara styra via belöning/bestraffning.</p>
+      <p>Högt på både resultat och utveckling.</p>
     </div>
+  </div>
+
+  <h3>Destruktivt ledarskap</h3>
+  <p>Beteenden som aktivt skadar organisationen och medarbetarna — antingen genom illvilja eller genom slarv och undvikande. Forskningen (bl.a. Larsson m.fl. vid FHS) skiljer ofta mellan aktivt skadligt och passivt undvikande destruktivt ledarskap.</p>
+  <p><strong>Exempel på vad ledaren gör:</strong></p>
+  <ul>
+    <li>Är inkonsekvent — olika regler gäller olika dagar eller olika personer.</li>
+    <li>Favoriserar vissa medarbetare öppet, vilket skapar misstro i gruppen.</li>
+    <li>Undanhåller information som medarbetarna behöver för att göra sitt jobb.</li>
+    <li>Bestraffar misstag hårt, vilket gör att medarbetare mörkar problem istället för att lyfta dem.</li>
+    <li>Skjuter obekväma beslut och konflikter framför sig, eller är helt frånvarande som stöd.</li>
+    <li>Tar åt sig äran för andras arbete, eller lägger skulden på andra vid motgång.</li>
+    <li>Ger otydliga eller motsägelsefulla besked, vilket skapar osäkerhet och stress.</li>
+  </ul>
+
+  <h3>Konventionellt ledarskap (KL)</h3>
+  <p>Traditionellt transaktionellt ledarskap: en utbytesrelation där prestation kopplas till belöning eller bestraffning, och styrning sker via tydliga regler, mål och kontroll. Till skillnad från destruktivt ledarskap är KL varken skadligt eller illvilligt — det fungerar, men riskerar att stanna vid det som går att mäta och kontrollera.</p>
+  <p><strong>Exempel på vad ledaren gör:</strong></p>
+  <ul>
+    <li>Sätter tydliga mål och följer upp resultat systematiskt mot dem.</li>
+    <li>Belönar måluppfyllelse (bonus, beröm, förmåner) och sanktionerar uteblivna resultat.</li>
+    <li>Styr via regler, rutiner och kontroll snarare än via relation eller mening.</li>
+    <li>Delegerar uppgifter tydligt, men involverar sällan medarbetare i besluten bakom dem.</li>
+    <li>Ger återkoppling som är resultatinriktad snarare än utvecklingsinriktad — fokus på vad som gjordes, inte varför eller hur personen kan växa.</li>
+    <li>Löser problem själv eller genom eskalering uppåt, snarare än att coacha medarbetaren att lösa dem.</li>
+  </ul>
+  <p>Effekten blir ofta ett arbetsklimat där medarbetare gör det som krävs för att nå målen — men sällan mer än så, eftersom det egna engagemanget och utvecklingen inte efterfrågas.</p>
+
+  <div class="card accent">
+    <p><strong>Ett förtydligande:</strong> ingen ledare är renodlat den ena eller andra typen, och det är varken möjligt eller önskvärt att alltid agera utvecklande. Ibland kräver situationen tydlig styrning och uppföljning av resultat — konventionella beteenden kan vara helt rätt verktyg i stunden, t.ex. i en akut kris. Poängen med UL är inte att KL-beteenden är förbjudna, utan att ledarens <strong>grundläggande stil och strävan</strong> bör vara utvecklande: att över tid bygga förtroende, utveckla medarbetare och skapa mening — inte att stanna vid kontroll och transaktion som norm.</p>
   </div>
 
   <h2>Människosynen bakom UL</h2>
